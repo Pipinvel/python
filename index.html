@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html, body{
+            margin: 0;
+            padding: 0;
+        }
+        a{
+            color: black;
+            margin-right: 30px;
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        header{
+            height: 100px;
+        }
+        .fixed-container{
+            max-width: 1200px;
+            margin: 0 auto;
+            height: 100%;
+        }
+        header > div{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .light-button{
+            border-color: transparent;
+            font-size: 14px;
+            padding: 15px 40px;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="fixed-container">
+            <nav>
+                <a href="#">Услуги</a>
+                <a href="#">Портфолио</a>
+                <a href="#">Стоимость</a>
+            </nav>
+            <div>
+                +996 507 701 929
+                &nbsp; &nbsp; &nbsp;
+                <button class="light-button">Кнопка в светлое будущее</button>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
